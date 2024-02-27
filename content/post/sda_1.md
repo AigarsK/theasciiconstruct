@@ -21,7 +21,7 @@ The IP address continues to be the identity of the endpoint however, its locatio
 
 A simple visual comparison helps understand this better:
 
-![static1](/images/cisco/sda_1/lisp1.jpg)
+![static](/images/cisco/sda_1/lisp1.jpg)
 
 
 The location is also known as a routing locator or RLOC in the LISP world. An example of an RLOC would be an edge node that the endpoint connects to. 
@@ -42,7 +42,7 @@ This is similar to how a routing protocol like OSPF advertises networks to its n
 Think of this visually:
 
 
-![static1](/images/cisco/sda_1/lisp2.jpg)
+![static](/images/cisco/sda_1/lisp2.jpg)
 
 
 With your traditional routing models like OSPF, information was always pushed to the neighbors. This forced the peers to evaluate the prefixes, pushed them into RIB/FIB even if there were no active conversations against that prefix. 
@@ -76,7 +76,7 @@ xTR - typically, one device will perform both eTR and iTR functions when you con
 
 The following visualization should help you understand the above terminology better:
 
-![static1](/images/cisco/sda_1/lisp3.jpg)
+![static](/images/cisco/sda_1/lisp3.jpg)
 
 
 In the next post, we'll get to the meat of LISP - its basic configuration and operation.
